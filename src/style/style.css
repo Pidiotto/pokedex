@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background: url("../image/pokemon-bg.jpg") no-repeat;
+}
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+
+    /* background-color: rgba(12, 150, 192, 0.897); */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: url("../image/pokeball.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    /* background-color: yellow; */
+    font-size: 18px;
+    overflow: auto;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pokemon-info img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#pokemon-name {
+    width: 160px;
+    height: 20px;
+    border: 1px solid rgb(8, 8, 8);
+    background-color: white;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box {
+    padding: 7px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Fogo */
+.fire {
+    background-color: #FFA07A;
+    /* Light Salmon */
+    color: white;
+}
+
+/* Água */
+.water {
+    background-color: #87CEEB;
+    /* Sky Blue */
+    color: white;
+}
+
+/* Grama */
+.grass {
+    background-color: #8FBC8F;
+    /* Dark Sea Green */
+    color: white;
+}
+
+/* Elétrico */
+.electric {
+    background-color: #FFD700;
+    /* Gold */
+    color: black;
+}
+
+/* Gelo */
+.ice {
+    background-color: #ADD8E6;
+    /* Light Blue */
+    color: black;
+}
+
+/* Lutador */
+.fighting {
+    background-color: #CD5C5C;
+    /* Indian Red */
+    color: white;
+}
+
+/* Veneno */
+.poison {
+    background-color: #9932CC;
+    /* Dark Orchid */
+    color: white;
+}
+
+/* Terra */
+.ground {
+    background-color: #8B4513;
+    /* Saddle Brown */
+    color: white;
+}
+
+/* Voador */
+.flying {
+    background-color: #87CEEB;
+    /* Sky Blue */
+    color: black;
+}
+
+/* Psíquico */
+.psychic {
+    background-color: #FF69B4;
+    /* Hot Pink */
+    color: white;
+}
+
+/* Besouro */
+.bug {
+    background-color: #32CD32;
+    /* Lime Green */
+    color: white;
+}
+
+/* Pedra */
+.rock {
+    background-color: #A9A9A9;
+    /* Dark Gray */
+    color: white;
+}
+
+/* Fantasma */
+.ghost {
+    background-color: #4B0082;
+    /* Indigo */
+    color: white;
+}
+
+/* Aço */
+.steel {
+    background-color: #708090;
+    /* Slate Gray */
+    color: white;
+}
+
+/* Fada */
+.fairy {
+    background-color: #FFB6C1;
+    /* Light Pink */
+    color: black;
+}
+
+/* Normal */
+.normal {
+    background-color: #C0C0C0;
+    /* Silver */
+    color: black;
+}
+
+/* Gelo/Voador */
+.ice.flying {
+    background-color: #B0E0E6;
+    /* Powder Blue */
+    color: black;
+}
+
+/* Grama/Venenoso */
+.grass.poison {
+    background-color: #3CB371;
+    /* Medium Sea Green */
+    color: white;
+}
+
+/* Inseto/Voador */
+.bug.flying {
+    background-color: #98FB98;
+    /* Pale Green */
+    color: black;
+}
+
+/* Terrestre/Rocha */
+.ground.rock {
+    background-color: #B8860B;
+    /* Dark Goldenrod */
+    color: white;
+}
+
+/* Lutador/Voador */
+.fighting.flying {
+    background-color: #1E90FF;
+    /* Dodger Blue */
+    color: white;
+}
+
+/* Elétrico/Voador */
+.electric.flying {
+    background-color: #FFD700;
+    /* Gold */
+    color: black;
+}
+
+/* Fogo/Voador */
+.fire.flying {
+    background-color: #FF4500;
+    /* Orange Red */
+    color: white;
+}
+
+/* Água/Grama */
+.water.grass {
+    background-color: #20B2AA;
+    /* Light Sea Green */
+    color: white;
+}
+
+/* Elétrico/Aço */
+.electric.steel {
+    background-color: #B0C4DE;
+    /* Light Steel Blue */
+    color: black;
+}
+
+
+#pokemon-description {
+    width: 230px;
+    height: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow: auto;
+}
